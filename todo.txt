@@ -1,0 +1,4 @@
+- translations
+- nimeksi ehkä joku kuvaavampi
+- footeriin linkki omalle sivustolle
+- readme
