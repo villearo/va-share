@@ -1,5 +1,5 @@
 - translations
 - better name for the plugin
 - footer backlink to villearo.fi
-- change mobile button position
 - readme
+- prevent styles from printing if not defined

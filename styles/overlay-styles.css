@@ -62,8 +62,8 @@ body.no-scroll {
 #va-overlay-close {
     position: absolute;
     z-index: 99999;
-	top: 3rem;
-	right: 3rem;
+	top: 2rem;
+	right: 2rem;
 	width: 3rem;
     height: 3rem;
     line-height: 3rem;
