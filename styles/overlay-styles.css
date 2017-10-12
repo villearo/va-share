@@ -9,7 +9,6 @@ body.no-scroll {
 	left: 100%;
 	width: 100%;
 	padding: 0;
-	color: inherit;
 	background: #fff;
 	z-index: 99998;
 	transition: left 200ms ease-in-out;
@@ -33,6 +32,10 @@ body.no-scroll {
 	width: 100%;
 	max-width: 54rem;
 	margin: auto;
+}
+
+#va-overlay .overlay-inner * {
+	color: inherit;
 }
 
 #va-overlay-open {

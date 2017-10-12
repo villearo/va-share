@@ -19,8 +19,10 @@ function va_overlay_styles_and_scripts() {
 	$backgroundcolor = $color_options['background'];
 	$style_settings = "
 		#va-overlay .overlay-outer {
-			color: {$textcolor};
 			background: {$backgroundcolor};
+		}
+		#va-overlay .overlay-inner * {
+			color: {$textcolor};
 		}
 	";
 	wp_add_inline_style( 'overlay-styles', $style_settings );
