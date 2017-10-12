@@ -24,6 +24,7 @@ function va_overlay_styles_and_scripts() {
 		#va-overlay .overlay-inner * {
 			color: {$textcolor};
 		}
+		
 	";
 	wp_add_inline_style( 'overlay-styles', $style_settings );
 
