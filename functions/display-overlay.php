@@ -21,13 +21,7 @@ function va_overlay_styles_and_scripts() {
 		#va-overlay .overlay-outer {
 			background: {$backgroundcolor};
 		}
-		#va-overlay .overlay-inner p,
-		#va-overlay .overlay-inner h1,
-		#va-overlay .overlay-inner h2,
-		#va-overlay .overlay-inner h3,
-		#va-overlay .overlay-inner h4,
-		#va-overlay .overlay-inner h5,
-		#va-overlay .overlay-inner h6 {
+		#va-overlay .overlay-inner > *:not(button) {
 			color: {$textcolor};
 		}
 	";
