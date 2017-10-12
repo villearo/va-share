@@ -11,7 +11,7 @@ body.no-scroll {
 	padding: 0;
 	background: #fff;
 	z-index: 99998;
-		transition: transform 200ms ease-in-out;
+	transition: left 200ms ease-in-out;
 	display: flex;
     align-items: center;
     flex-direction: column;
