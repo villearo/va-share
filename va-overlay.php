@@ -4,8 +4,8 @@ Plugin Name: 	VA Overlay
 Plugin URI:		
 Description: 	Overlay with custom WYSIWYG editable content
 Version: 		1.0.0
-Author: 		VA Web Solutions
-Author URI: 	https://vawebsolutions.fi/
+Author: 		Ville Aro
+Author URI: 	https://villearo.fi/
 Text Domain: 	va-overlay
 Domain Path:	/languages
 License: 		GPLv2 or later
@@ -25,7 +25,7 @@ define( 'VA_OVERLAY_PLUGIN_URL', plugin_dir_url( __FILE__ ) );		// define the pl
 $va_overlay_options = get_option('va_overlay_settings');			// retrieve our plugin settings from the options table
 
 /**
- * Includes - keeping it modular
+ * Includes
  */
 include( VA_OVERLAY_PLUGIN_PATH . 'admin/admin.php' );         				// initialize admin menu & settings page
 include( VA_OVERLAY_PLUGIN_PATH . 'functions/display-overlay.php' );				// setup mime types support for SVG (with fix for WP 4.7.1 - 4.7.2)

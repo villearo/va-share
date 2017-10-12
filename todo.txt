@@ -1,6 +1,5 @@
 - translations
-- nimeksi ehkä joku kuvaavampi
-- footeriin linkki omalle sivustolle
+- better name for the plugin
+- footer backlink to villearo.fi
+- change mobile button position
 - readme
-
---
