@@ -34,7 +34,13 @@ body.no-scroll {
 	margin: auto;
 }
 
-#va-overlay .overlay-inner * {
+#va-overlay .overlay-inner p,
+#va-overlay .overlay-inner h1,
+#va-overlay .overlay-inner h2,
+#va-overlay .overlay-inner h3,
+#va-overlay .overlay-inner h4,
+#va-overlay .overlay-inner h5,
+#va-overlay .overlay-inner h6 {
 	color: inherit;
 }
 
