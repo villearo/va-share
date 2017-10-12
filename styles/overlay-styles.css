@@ -38,6 +38,7 @@ body.no-scroll {
 	color: inherit;
 }
 
+
 #va-overlay-open {
     position: fixed;
     z-index: 99999;
