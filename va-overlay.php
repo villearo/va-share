@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 	VA Overlay
-Plugin URI:		
+Plugin URI:		https://github.com/villearo/va-overlay
 Description: 	Overlay with custom WYSIWYG editable content
 Version: 		1.0.0
 Author: 		Ville Aro
@@ -27,5 +27,5 @@ $va_overlay_options = get_option('va_overlay_settings');			// retrieve our plugi
 /**
  * Includes
  */
-include( VA_OVERLAY_PLUGIN_PATH . 'admin/admin.php' );         				// initialize admin menu & settings page
-include( VA_OVERLAY_PLUGIN_PATH . 'functions/display-overlay.php' );				// setup mime types support for SVG (with fix for WP 4.7.1 - 4.7.2)
+include( VA_OVERLAY_PLUGIN_PATH . 'admin/admin.php' );
+include( VA_OVERLAY_PLUGIN_PATH . 'functions/display-overlay.php' );
