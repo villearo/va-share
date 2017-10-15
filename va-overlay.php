@@ -2,7 +2,7 @@
 /*
 Plugin Name: 	VA Overlay
 Plugin URI:		https://github.com/villearo/va-overlay
-Description: 	Overlay with custom WYSIWYG editable content
+Description: 	Overlay with custom WYSIWYG editable content. Shortcodes allowed.
 Version: 		1.0.0
 Author: 		Ville Aro
 Author URI: 	https://villearo.fi/
