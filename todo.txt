@@ -2,5 +2,4 @@
 - better name for the plugin
 - footer backlink to villearo.fi
 - readme
-- prevent styles from printing if not defined in options page
 - minify css & js
