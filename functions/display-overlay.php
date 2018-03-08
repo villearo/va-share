@@ -35,16 +35,17 @@ add_action('wp_enqueue_scripts', 'va_overlay_styles_and_scripts');
  * Print html in footer
  */
 function display_va_overlay() {
-	if ( get_option('va_overlay_content') ) {
-		$content = apply_filters('the_content', get_option('va_overlay_content')); // Used the_content filter to get shortcodes working
-
+	$content = get_option('va_overlay_content');
+	$open_button = get_option('va_overlay_button');
+	if ( $content ) {
 		$output = '<div id="va-overlay">'; // Container start
-		if ( get_option('va_overlay_button') ) {
-			$output .= '<button id="va-overlay-open">' . get_option('va_overlay_button') . '</button>'; // Open button
+		if ( $open_button ) {
+			$output .= '<button id="va-overlay-open">' . $open_button . '</button>'; // Open button
 		}
-		$output .= '<div class="overlay-outer"><div class="overlay-scroll"><div class="overlay-inner"><button id="va-overlay-close">✕</button>' . $content . '</div></div></div>'; // Close button & content
+		$output .= '<div class="overlay-outer"><div class="overlay-scroll"><div class="overlay-inner"><button id="va-overlay-close">✕</button>'; // Close button
+		$output .= apply_filters('the_content', $content); // Use the_content filter to get shortcodes working
+		$output .= '</div></div></div>';
 		$output .= '</div>'; // Container end
-
 		print $output;
 	}
 }
