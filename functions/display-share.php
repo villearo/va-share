@@ -26,7 +26,7 @@ function va_share_show_icons() {
 	global $wp;
 	$current_url = home_url( add_query_arg( array(), $wp->request ) );
 	$output = '<div id="va-share">';
-	$output .= '<h5>' . get_option('va_share_text') . '</h5>';
+	$output .= get_option('va_share_text');
 	$output .= '<a class="facebook icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' . $current_url . '"><i class="fa fa-facebook" aria-hidden="true"></i></a>';
 	$output .= '<a class="twitter icon" target="_blank" href="https://twitter.com/share?url=' . $current_url . '"><i class="fa fa-twitter" aria-hidden="true"></i></a>';
 	$output .= '<a class="linkedin icon" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&title=' . get_the_title() . '&url=' . $current_url . '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>';
