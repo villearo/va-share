@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: http://example.com/
-Tags: simple, wysiwyg, overlay, popup, shortcodes
+Tags: simple, wysiwyg, share, popup, shortcodes
 Requires at least: 4.8
 Tested up to: 4.8
 Stable tag: 4.8
@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
-Create simple and stylish overlay easily with wysiwyg editor. Use custom colors. Shortcodes allowed. Good for e.g. contact forms.
+Create simple and stylish share easily with wysiwyg editor. Use custom colors. Shortcodes allowed. Good for e.g. contact forms.
 
 == Description ==
 
@@ -38,17 +38,17 @@ you put the stable version, in order to eliminate any doubt.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/va-overlay` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/va-share` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 1. Use the Settings->VA Overlay screen to configure the plugin
 
 == Frequently Asked Questions ==
 
-= Can I use shortcodes in overlay? =
+= Can I use shortcodes in share? =
 
 Yes.
 
-= Can i put a form in overlay? =
+= Can i put a form in share? =
 
 Yes. With a shortcode.
 
@@ -60,7 +60,7 @@ Yes. In the settings page.
 
 Change theme or use css to make it look awesome.
 
-= Can the overlay be opened with JavaScript? =
+= Can the share be opened with JavaScript? =
 
 Yes. Call this function: toggleOverlayVisibility()
 
