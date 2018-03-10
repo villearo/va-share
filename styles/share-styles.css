@@ -1,0 +1,12 @@
+#va-share .icon {
+	color: inherit;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    background: none;
+    margin: 0 1.2rem 1.2rem 0;
+}
+
+#va-share .icon:last-of-type {
+    margin-right: 0;
+}
