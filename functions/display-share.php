@@ -23,8 +23,7 @@ add_action('wp_enqueue_scripts', 'va_share_styles_and_scripts');
  * Display icons and add [share] shortcode
  */
 function va_share_show_icons() {
-	global $wp;
-	$current_url = home_url( add_query_arg( array(), $wp->request ) );
+	$current_url = get_permalink();
 	$output = '<div id="va-share">';
 	$output .= get_option('va_share_text');
 	$output .= '<a class="facebook icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' . $current_url . '"><i class="fa fa-facebook" aria-hidden="true"></i></a>';
