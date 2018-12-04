@@ -41,7 +41,7 @@ add_shortcode('share', 'va_share_show_icons');
  */
 function va_share_show_icons_after_content( $content ) {
 	$va_share_visibility_options = get_option('va_share_visibility');
-	if ( ( is_single() && isset( $va_share_visibility_options['posts'] ) == 1 ) || ( is_page() && isset( $va_share_visibility_options['pages'] ) == 1 ) ) {
+	if ( ( is_singular('post') && isset( $va_share_visibility_options['posts'] ) == 1 ) || ( is_singular('page') && isset( $va_share_visibility_options['pages'] ) == 1 ) ) {
 		$content .= va_share_show_icons();
 	}
 	return $content;
